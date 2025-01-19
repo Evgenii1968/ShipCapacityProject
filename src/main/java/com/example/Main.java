@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//s
 /**
  * Распределяем машины на 4 группы по округлённой площади:
  *   KEY:    round < 6
