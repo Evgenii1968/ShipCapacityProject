@@ -4,7 +4,7 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    
+
     <groupId>com.example</groupId>
     <artifactId>ship-capacity-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -15,9 +15,6 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
-    <!-- Не указываем дополнительные репозитории, 
-         чтобы Maven искал в центральном репо -->
-
     <dependencies>
         <!-- Apache POI (для чтения Excel), версия 5.2.3 -->
         <dependency>
@@ -26,29 +23,27 @@
             <version>5.2.3</version>
         </dependency>
 
-        <!-- jMonkeyEngine 3.2.4-stable (без bullet) -->
+        <!-- jMonkeyEngine Core -->
         <dependency>
             <groupId>org.jmonkeyengine</groupId>
             <artifactId>jme3-core</artifactId>
-            <version>3.2.4-stable</version>
+            <version>3.5.2-stable</version>
         </dependency>
         <dependency>
             <groupId>org.jmonkeyengine</groupId>
             <artifactId>jme3-desktop</artifactId>
-            <version>3.2.4-stable</version>
+            <version>3.5.2-stable</version>
         </dependency>
         <dependency>
             <groupId>org.jmonkeyengine</groupId>
             <artifactId>jme3-lwjgl3</artifactId>
-            <version>3.2.4-stable</version>
+            <version>3.5.2-stable</version>
         </dependency>
-        <!-- jme3-plugins нужен для загрузки STL и других форматов моделей -->
         <dependency>
             <groupId>org.jmonkeyengine</groupId>
             <artifactId>jme3-plugins</artifactId>
-            <version>3.2.4-stable</version>
+            <version>3.5.2-stable</version>
         </dependency>
-        <!-- bullet-модуль не подключаем -->
     </dependencies>
 
     <build>
